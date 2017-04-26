@@ -25,7 +25,7 @@ Now you have `PHP7` you can compile `gpio extension`
 ```
 $ cd gpio_extension
 $ phpize
-$ configure --enable_gpio_extension
+$ configure --enable-gpio_extension
 $ make
 $ make test
 ```
