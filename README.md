@@ -57,7 +57,7 @@ $list_pin = array(
   21 => GPIO_OUT
 );
 
-$gpio = new Gpio(ZERO, list_pin);
+$gpio = new Gpio(ZERO, $list_pin);
 
 //Show raspberry verison select
 echo $gpio->getVersion();
